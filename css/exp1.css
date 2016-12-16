@@ -1,0 +1,36 @@
+body{
+	font-family: "Helvetica","Arial",serif;
+	color: #333;
+	background: #ccc;
+	margin: 1em 10%;
+}
+h1{
+	color: #333;
+	background-color: transparent;
+}
+a{
+	color: #c60;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+#imagegallery{
+	padding: 0;
+	list-style: none;
+}
+#imagegallery li{
+	display: inline-block;
+	padding: 1em;
+}
+#imagegallery li a img{
+	border: 0;
+}
+p{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+}
+.cube{
+	height: 750px;
+	overflow: hidden;
+}
